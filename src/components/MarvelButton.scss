@@ -1,0 +1,73 @@
+@import "../theme/colors";
+
+.marvelButton {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  height: 56px;
+  color: #fff;
+  position: relative;
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+
+  &__left {
+    fill: $primary;
+  }
+
+  &__right {
+    fill: $primary;
+    transform: rotate(180deg);
+  }
+
+  &__center {
+    background: $primary;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__label {
+    line-height: 56px;
+    margin-left: 8px;
+  }
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+
+    .marvelButton {
+      &__left,
+      &__right {
+        fill: $primary20;
+      }
+
+      &__center {
+        background: $primary20;
+      }
+    }
+  }
+
+  &:focus,
+  &:active {
+    outline: 3px solid #fff;
+  }
+
+  &--lg {
+    font-size: 18px;
+  }
+
+  &--secondary {
+    .marvelButton {
+      &__center {
+        background: $neutral30;
+      }
+
+      &__left,
+      &__right {
+        fill: $neutral30;
+      }
+    }
+  }
+}
