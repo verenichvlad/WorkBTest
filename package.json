@@ -20,6 +20,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.9",
     "crypto-js": "^4.1.1",
+    "jotai": "^2.0.2",
     "ky": "^0.33.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

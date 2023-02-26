@@ -1,13 +1,17 @@
+import { useAtom } from "jotai";
 import { CircularProgress, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { useQuery } from "react-query";
 import useMarvelQueries from "../api/useMarvelQueries";
 import { colors } from "../theme/colors";
+import { activeCharacterIdAtom, activePageAtom } from "../api/atoms";
 
 const limitOfCharacters = 10;
 
 export default function FilterBox() {
   const { fetchCharacters } = useMarvelQueries();
+  const [, setActiveCharacterId] = useAtom(activeCharacterIdAtom);
+  const [, setActivePage] = useAtom(activePageAtom);
 
   const { isLoading, error, data } = useQuery(
     ["fetchCharacters"],
@@ -51,6 +55,7 @@ export default function FilterBox() {
           <Box
             key={character.id}
             component="button"
+            onClick={handleCharacterFilterSelection.bind(null, character.id)}
             sx={{
               all: "unset",
 
@@ -69,4 +74,9 @@ export default function FilterBox() {
       </Box>
     </Box>
   );
+
+  function handleCharacterFilterSelection(characterId: number) {
+    setActiveCharacterId(characterId);
+    setActivePage(0);
+  }
 }

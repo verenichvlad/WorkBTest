@@ -18,7 +18,7 @@ export default function MarvelButton(props: MarvelButtonProps) {
       <ButtonSideSvg className="marvelButton__left" />
 
       <div className="marvelButton__center">
-        {variant === "primary" && <img src={AddSvg} />}
+        {variant === "primary" && <img src={AddSvg} alt="Add icon" />}
         {shouldDisplayLeftArrow && <img src={ArrowLeftSvg} alt="Left arrow" />}
         <span className="marvelButton__label">{props.label}</span>
         {shouldDisplayRightArrow && (

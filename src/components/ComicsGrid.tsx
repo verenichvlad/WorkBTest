@@ -1,16 +1,20 @@
 import { Box, CircularProgress, Grid } from "@mui/material";
+import { useAtom } from "jotai";
 import { useState } from "react";
 import { useQuery } from "react-query";
+import { activeCharacterIdAtom, activePageAtom } from "../api/atoms";
 import useMarvelQueries from "../api/useMarvelQueries";
 import Comics from "./Comics";
 import MarvelButton from "./MarvelButton";
 
-const characterId = 1011334;
+const fallbackCharacterId = 1011334;
 const limit = 4;
 
 export default function ComicsGrid() {
   const { fetchComics } = useMarvelQueries();
-  const [activePage, setActivePage] = useState(0);
+  const [activePage, setActivePage] = useAtom(activePageAtom);
+  const [activeCharacterId] = useAtom(activeCharacterIdAtom);
+  const characterId = activeCharacterId || fallbackCharacterId;
 
   const { isLoading, error, data } = useQuery(
     ["fetchComics", characterId, activePage],
