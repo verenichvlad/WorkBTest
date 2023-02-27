@@ -1,9 +1,9 @@
-import { Box, CircularProgress, Grid } from "@mui/material";
+import { Box, CircularProgress, Grid, Typography } from "@mui/material";
 import { useAtom } from "jotai";
-import { useState } from "react";
 import { useQuery } from "react-query";
 import { activeCharacterIdAtom, activePageAtom } from "../api/atoms";
 import useMarvelQueries from "../api/useMarvelQueries";
+import { colors } from "../theme/colors";
 import Comics from "./Comics";
 import MarvelButton from "./MarvelButton";
 
@@ -31,7 +31,20 @@ export default function ComicsGrid() {
     );
   }
 
-  if (!comicsList) return null;
+  if (error) {
+    return (
+      <Typography variant="subtitle1" sx={{ color: colors.primary }}>
+        Error occured while trying to fetch data
+      </Typography>
+    );
+  }
+
+  if (!comicsList || comicsList.length < 1)
+    return (
+      <Typography variant="subtitle1" sx={{ color: colors.white }}>
+        No comics were found for current character
+      </Typography>
+    );
 
   const nextPageExists = data.data.total > (activePage + 1) * limit;
 

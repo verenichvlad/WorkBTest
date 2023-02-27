@@ -26,6 +26,14 @@ export default function FilterBox() {
     );
   }
 
+  if (error) {
+    return (
+      <Typography variant="subtitle1" sx={{ color: colors.primary }}>
+        Error occured while trying to fetch data
+      </Typography>
+    );
+  }
+
   const characters = data?.data.results || [];
 
   return (
@@ -51,6 +59,12 @@ export default function FilterBox() {
           flexWrap: "wrap",
         }}
       >
+        {characters.length < 1 && (
+          <Typography variant="subtitle1" sx={{ color: colors.white }}>
+            No characters were found
+          </Typography>
+        )}
+
         {characters.map((character) => (
           <Box
             key={character.id}
