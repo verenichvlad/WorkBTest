@@ -34,7 +34,6 @@ export default function Comics(props: ComicsProps) {
           <MarvelButton
             onClick={handleAddToReadingList}
             variant="primary"
-            size="xs-lg"
             label="Add"
           />
         </Box>

@@ -9,8 +9,6 @@
   height: 56px;
   color: #fff;
   position: relative;
-  font-size: 16px;
-  font-family: "Roboto Condensed";
 
   &__left {
     fill: $primary;
@@ -26,11 +24,6 @@
     display: flex;
     align-items: center;
     height: 100%;
-  }
-
-  &__label {
-    line-height: 56px;
-    margin-left: 8px;
   }
 
   &:hover,
@@ -54,10 +47,6 @@
     outline: 3px solid #fff;
   }
 
-  &--lg {
-    font-size: 18px;
-  }
-
   &--secondary {
     .marvelButton {
       &__center {
@@ -67,6 +56,44 @@
       &__left,
       &__right {
         fill: $neutral30;
+      }
+    }
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+
+      .marvelButton {
+        &__left,
+        &__right {
+          fill: $neutral10;
+        }
+
+        &__center {
+          background: $neutral10;
+        }
+      }
+    }
+  }
+
+  &--disabled {
+    opacity: 0.5;
+
+    &:focus,
+    &:active,
+    &:hover {
+      cursor: auto;
+      outline: none;
+
+      .marvelButton {
+        &__left,
+        &__right {
+          fill: $neutral30;
+        }
+
+        &__center {
+          background: $neutral30;
+        }
       }
     }
   }

@@ -4,6 +4,7 @@ import ArrowLeftSvg from "../assets/ArrowLeft.svg";
 import ArrowRightSvg from "../assets/ArrowRight.svg";
 import AddSvg from "../assets/Add.svg";
 import "./MarvelButton.scss";
+import { Typography } from "@mui/material";
 
 export default function MarvelButton(props: MarvelButtonProps) {
   const { variant, direction, size } = props;
@@ -21,7 +22,9 @@ export default function MarvelButton(props: MarvelButtonProps) {
         {variant === "primary" && <img src={AddSvg} alt="Add icon" />}
         {shouldDisplayLeftArrow && <img src={ArrowLeftSvg} alt="Left arrow" />}
 
-        <span className="marvelButton__label">{props.label}</span>
+        <Typography variant="h6" sx={{ margin: "0 8px" }}>
+          {props.label}
+        </Typography>
 
         {shouldDisplayRightArrow && (
           <img src={ArrowRightSvg} alt="Right arrow" />
@@ -47,18 +50,6 @@ export default function MarvelButton(props: MarvelButtonProps) {
       classNameArr.push("marvelButton--secondary");
     }
 
-    switch (size) {
-      case "xs-lg":
-        classNameArr.push("marvelButton--xs");
-        break;
-      case "lg+":
-        classNameArr.push("marvelButton--lg");
-        break;
-
-      default:
-        classNameArr.push("marvelButton--xs");
-    }
-
     return classNameArr.join(" ");
   }
 }
@@ -67,7 +58,5 @@ interface MarvelButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant: "primary" | "secondary";
   direction?: "left" | "right";
-  size: "xs-lg" | "lg+";
   label: string;
-  // disabled?: boolean;
 }

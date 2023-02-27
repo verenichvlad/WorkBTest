@@ -62,23 +62,21 @@ export default function ComicsGrid() {
         style={{ display: "flex", justifyContent: "center", margin: "32px 0" }}
       >
         <MarvelButton
+          disabled={activePage < 1}
           onClick={goToPrev}
           variant="secondary"
           direction="left"
           label="Prev"
-          size="xs-lg"
         />
 
-        {nextPageExists && (
-          <MarvelButton
-            onClick={goToNext}
-            style={{ marginLeft: 8 }}
-            variant="secondary"
-            direction="right"
-            label="Next"
-            size="xs-lg"
-          />
-        )}
+        <MarvelButton
+          disabled={!nextPageExists}
+          onClick={goToNext}
+          style={{ marginLeft: 8 }}
+          variant="secondary"
+          direction="right"
+          label="Next"
+        />
       </div>
     </div>
   );
