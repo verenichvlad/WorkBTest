@@ -7,7 +7,7 @@ import "./MarvelButton.scss";
 import { Typography } from "@mui/material";
 
 export default function MarvelButton(props: MarvelButtonProps) {
-  const { variant, direction, size } = props;
+  const { variant, direction, testId } = props;
 
   const shouldDisplayLeftArrow =
     variant === "secondary" && direction === "left";
@@ -15,7 +15,7 @@ export default function MarvelButton(props: MarvelButtonProps) {
     variant === "secondary" && direction === "right";
 
   return (
-    <button {...props} className={buildButtonClassName()}>
+    <button data-testid={testId} {...props} className={buildButtonClassName()}>
       <ButtonSideSvg className="marvelButton__left" />
 
       <div className="marvelButton__center">
@@ -59,4 +59,5 @@ interface MarvelButtonProps
   variant: "primary" | "secondary";
   direction?: "left" | "right";
   label: string;
+  testId?: string;
 }

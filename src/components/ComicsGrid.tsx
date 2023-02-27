@@ -1,8 +1,7 @@
 import { Box, CircularProgress, Grid, Typography } from "@mui/material";
 import { useAtom } from "jotai";
-import { useQuery } from "react-query";
 import { activeCharacterIdAtom, activePageAtom } from "../api/atoms";
-import useMarvelQueries from "../api/useMarvelQueries";
+import useGetComics from "../api/useGetComics";
 import { colors } from "../theme/colors";
 import Comics from "./Comics";
 import MarvelButton from "./MarvelButton";
@@ -11,15 +10,15 @@ const fallbackCharacterId = 1011334;
 const limit = 4;
 
 export default function ComicsGrid() {
-  const { fetchComics } = useMarvelQueries();
   const [activePage, setActivePage] = useAtom(activePageAtom);
   const [activeCharacterId] = useAtom(activeCharacterIdAtom);
   const characterId = activeCharacterId || fallbackCharacterId;
 
-  const { isLoading, error, data } = useQuery(
-    ["fetchComics", characterId, activePage],
-    fetchComics.bind(null, { limit, activePage, characterId })
-  );
+  const { isLoading, error, data } = useGetComics({
+    limit,
+    characterId,
+    activePage,
+  });
 
   const comicsList = data?.data.results;
 
@@ -62,6 +61,7 @@ export default function ComicsGrid() {
         style={{ display: "flex", justifyContent: "center", margin: "32px 0" }}
       >
         <MarvelButton
+          testId="prevBtn"
           disabled={activePage < 1}
           onClick={goToPrev}
           variant="secondary"
@@ -70,6 +70,7 @@ export default function ComicsGrid() {
         />
 
         <MarvelButton
+          testId="nextBtn"
           disabled={!nextPageExists}
           onClick={goToNext}
           style={{ marginLeft: 8 }}

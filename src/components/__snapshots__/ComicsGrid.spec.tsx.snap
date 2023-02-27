@@ -1,0 +1,1305 @@
+// Vitest Snapshot v1
+
+exports[`Comics Grid > displays 4 comics on the page 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-188cy1e-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+              >
+                <img
+                  alt="Comics Image"
+                  src="/src/assets/noImage.jpeg"
+                  style="width: 100%; height: auto;"
+                />
+                <div
+                  class="MuiBox-root css-i80k3r"
+                >
+                  <button
+                    class="marvelButton"
+                    label="Add"
+                    variant="primary"
+                  >
+                    <svg
+                      class="marvelButton__left"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                    <div
+                      class="marvelButton__center"
+                    >
+                      <img
+                        alt="Add icon"
+                        src="/src/assets/Add.svg"
+                      />
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                      >
+                        Add
+                      </h6>
+                    </div>
+                    <svg
+                      class="marvelButton__right"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+              >
+                <div>
+                  <h3
+                    class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                  >
+                    Title 1
+                  </h3>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Published:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Writer:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+              >
+                <img
+                  alt="Comics Image"
+                  src="/src/assets/noImage.jpeg"
+                  style="width: 100%; height: auto;"
+                />
+                <div
+                  class="MuiBox-root css-i80k3r"
+                >
+                  <button
+                    class="marvelButton"
+                    label="Add"
+                    variant="primary"
+                  >
+                    <svg
+                      class="marvelButton__left"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                    <div
+                      class="marvelButton__center"
+                    >
+                      <img
+                        alt="Add icon"
+                        src="/src/assets/Add.svg"
+                      />
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                      >
+                        Add
+                      </h6>
+                    </div>
+                    <svg
+                      class="marvelButton__right"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+              >
+                <div>
+                  <h3
+                    class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                  >
+                    Title 2
+                  </h3>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Published:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Writer:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+              >
+                <img
+                  alt="Comics Image"
+                  src="/src/assets/noImage.jpeg"
+                  style="width: 100%; height: auto;"
+                />
+                <div
+                  class="MuiBox-root css-i80k3r"
+                >
+                  <button
+                    class="marvelButton"
+                    label="Add"
+                    variant="primary"
+                  >
+                    <svg
+                      class="marvelButton__left"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                    <div
+                      class="marvelButton__center"
+                    >
+                      <img
+                        alt="Add icon"
+                        src="/src/assets/Add.svg"
+                      />
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                      >
+                        Add
+                      </h6>
+                    </div>
+                    <svg
+                      class="marvelButton__right"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+              >
+                <div>
+                  <h3
+                    class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                  >
+                    Title 3
+                  </h3>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Published:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Writer:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+              >
+                <img
+                  alt="Comics Image"
+                  src="/src/assets/noImage.jpeg"
+                  style="width: 100%; height: auto;"
+                />
+                <div
+                  class="MuiBox-root css-i80k3r"
+                >
+                  <button
+                    class="marvelButton"
+                    label="Add"
+                    variant="primary"
+                  >
+                    <svg
+                      class="marvelButton__left"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                    <div
+                      class="marvelButton__center"
+                    >
+                      <img
+                        alt="Add icon"
+                        src="/src/assets/Add.svg"
+                      />
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                      >
+                        Add
+                      </h6>
+                    </div>
+                    <svg
+                      class="marvelButton__right"
+                      fill="none"
+                      height="56"
+                      viewBox="0 0 16 56"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 16L16 0V56H0V16Z"
+                        fill="current"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+              >
+                <div>
+                  <h3
+                    class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                  >
+                    Title 4
+                  </h3>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Published:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                  >
+                    Writer:
+                  </h6>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                  />
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="display: flex; justify-content: center; margin: 32px 0px;"
+        >
+          <button
+            class="marvelButton marvelButton--disabled marvelButton--secondary"
+            data-testid="prevBtn"
+            direction="left"
+            disabled=""
+            label="Prev"
+            testid="prevBtn"
+            variant="secondary"
+          >
+            <svg
+              class="marvelButton__left"
+              fill="none"
+              height="56"
+              viewBox="0 0 16 56"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16L16 0V56H0V16Z"
+                fill="current"
+              />
+            </svg>
+            <div
+              class="marvelButton__center"
+            >
+              <img
+                alt="Left arrow"
+                src="/src/assets/ArrowLeft.svg"
+              />
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+              >
+                Prev
+              </h6>
+            </div>
+            <svg
+              class="marvelButton__right"
+              fill="none"
+              height="56"
+              viewBox="0 0 16 56"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16L16 0V56H0V16Z"
+                fill="current"
+              />
+            </svg>
+          </button>
+          <button
+            class="marvelButton marvelButton--disabled marvelButton--secondary"
+            data-testid="nextBtn"
+            direction="right"
+            disabled=""
+            label="Next"
+            style="margin-left: 8px;"
+            testid="nextBtn"
+            variant="secondary"
+          >
+            <svg
+              class="marvelButton__left"
+              fill="none"
+              height="56"
+              viewBox="0 0 16 56"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16L16 0V56H0V16Z"
+                fill="current"
+              />
+            </svg>
+            <div
+              class="marvelButton__center"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+              >
+                Next
+              </h6>
+              <img
+                alt="Right arrow"
+                src="/src/assets/ArrowRight.svg"
+              />
+            </div>
+            <svg
+              class="marvelButton__right"
+              fill="none"
+              height="56"
+              viewBox="0 0 16 56"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16L16 0V56H0V16Z"
+                fill="current"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-188cy1e-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+            >
+              <img
+                alt="Comics Image"
+                src="/src/assets/noImage.jpeg"
+                style="width: 100%; height: auto;"
+              />
+              <div
+                class="MuiBox-root css-i80k3r"
+              >
+                <button
+                  class="marvelButton"
+                  label="Add"
+                  variant="primary"
+                >
+                  <svg
+                    class="marvelButton__left"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                  <div
+                    class="marvelButton__center"
+                  >
+                    <img
+                      alt="Add icon"
+                      src="/src/assets/Add.svg"
+                    />
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                    >
+                      Add
+                    </h6>
+                  </div>
+                  <svg
+                    class="marvelButton__right"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+            >
+              <div>
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                >
+                  Title 1
+                </h3>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Published:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Writer:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+            >
+              <img
+                alt="Comics Image"
+                src="/src/assets/noImage.jpeg"
+                style="width: 100%; height: auto;"
+              />
+              <div
+                class="MuiBox-root css-i80k3r"
+              >
+                <button
+                  class="marvelButton"
+                  label="Add"
+                  variant="primary"
+                >
+                  <svg
+                    class="marvelButton__left"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                  <div
+                    class="marvelButton__center"
+                  >
+                    <img
+                      alt="Add icon"
+                      src="/src/assets/Add.svg"
+                    />
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                    >
+                      Add
+                    </h6>
+                  </div>
+                  <svg
+                    class="marvelButton__right"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+            >
+              <div>
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                >
+                  Title 2
+                </h3>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Published:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Writer:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+            >
+              <img
+                alt="Comics Image"
+                src="/src/assets/noImage.jpeg"
+                style="width: 100%; height: auto;"
+              />
+              <div
+                class="MuiBox-root css-i80k3r"
+              >
+                <button
+                  class="marvelButton"
+                  label="Add"
+                  variant="primary"
+                >
+                  <svg
+                    class="marvelButton__left"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                  <div
+                    class="marvelButton__center"
+                  >
+                    <img
+                      alt="Add icon"
+                      src="/src/assets/Add.svg"
+                    />
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                    >
+                      Add
+                    </h6>
+                  </div>
+                  <svg
+                    class="marvelButton__right"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+            >
+              <div>
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                >
+                  Title 3
+                </h3>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Published:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Writer:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-6 css-f0xsrb-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-lndw90-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-a0bbhx-MuiGrid-root"
+            >
+              <img
+                alt="Comics Image"
+                src="/src/assets/noImage.jpeg"
+                style="width: 100%; height: auto;"
+              />
+              <div
+                class="MuiBox-root css-i80k3r"
+              >
+                <button
+                  class="marvelButton"
+                  label="Add"
+                  variant="primary"
+                >
+                  <svg
+                    class="marvelButton__left"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                  <div
+                    class="marvelButton__center"
+                  >
+                    <img
+                      alt="Add icon"
+                      src="/src/assets/Add.svg"
+                    />
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+                    >
+                      Add
+                    </h6>
+                  </div>
+                  <svg
+                    class="marvelButton__right"
+                    fill="none"
+                    height="56"
+                    viewBox="0 0 16 56"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 16L16 0V56H0V16Z"
+                      fill="current"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+            >
+              <div>
+                <h3
+                  class="MuiTypography-root MuiTypography-h3 css-15anx50-MuiTypography-root"
+                >
+                  Title 4
+                </h3>
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Published:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <h6
+                  class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                >
+                  Writer:
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1kdgsg-MuiTypography-root"
+                />
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-zomha2-MuiTypography-root"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="display: flex; justify-content: center; margin: 32px 0px;"
+      >
+        <button
+          class="marvelButton marvelButton--disabled marvelButton--secondary"
+          data-testid="prevBtn"
+          direction="left"
+          disabled=""
+          label="Prev"
+          testid="prevBtn"
+          variant="secondary"
+        >
+          <svg
+            class="marvelButton__left"
+            fill="none"
+            height="56"
+            viewBox="0 0 16 56"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 16L16 0V56H0V16Z"
+              fill="current"
+            />
+          </svg>
+          <div
+            class="marvelButton__center"
+          >
+            <img
+              alt="Left arrow"
+              src="/src/assets/ArrowLeft.svg"
+            />
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+            >
+              Prev
+            </h6>
+          </div>
+          <svg
+            class="marvelButton__right"
+            fill="none"
+            height="56"
+            viewBox="0 0 16 56"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 16L16 0V56H0V16Z"
+              fill="current"
+            />
+          </svg>
+        </button>
+        <button
+          class="marvelButton marvelButton--disabled marvelButton--secondary"
+          data-testid="nextBtn"
+          direction="right"
+          disabled=""
+          label="Next"
+          style="margin-left: 8px;"
+          testid="nextBtn"
+          variant="secondary"
+        >
+          <svg
+            class="marvelButton__left"
+            fill="none"
+            height="56"
+            viewBox="0 0 16 56"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 16L16 0V56H0V16Z"
+              fill="current"
+            />
+          </svg>
+          <div
+            class="marvelButton__center"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-h6 css-116xvry-MuiTypography-root"
+            >
+              Next
+            </h6>
+            <img
+              alt="Right arrow"
+              src="/src/assets/ArrowRight.svg"
+            />
+          </div>
+          <svg
+            class="marvelButton__right"
+            fill="none"
+            height="56"
+            viewBox="0 0 16 56"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 16L16 0V56H0V16Z"
+              fill="current"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Comics Grid > displays an error message when api returns an error 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle1 css-1pokum1-MuiTypography-root"
+      >
+        Error occured while trying to fetch data
+      </h6>
+    </div>
+  </body>,
+  "container": <div>
+    <h6
+      class="MuiTypography-root MuiTypography-subtitle1 css-1pokum1-MuiTypography-root"
+    >
+      Error occured while trying to fetch data
+    </h6>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Comics Grid > displays message when no comics were found 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h6
+        class="MuiTypography-root MuiTypography-subtitle1 css-160xwbs-MuiTypography-root"
+      >
+        No comics were found for current character
+      </h6>
+    </div>
+  </body>,
+  "container": <div>
+    <h6
+      class="MuiTypography-root MuiTypography-subtitle1 css-160xwbs-MuiTypography-root"
+    >
+      No comics were found for current character
+    </h6>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Comics Grid > displays progressbar when loading 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiBox-root css-xi606m"
+      >
+        <span
+          class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiBox-root css-xi606m"
+    >
+      <span
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
+      >
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
+        >
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
